@@ -1,4 +1,5 @@
-package com.graph;
+﻿package com.graph;
+//1.4修改1
 import java.util.*;
 import java.io.File;
 import java.util.Scanner;
@@ -13,7 +14,6 @@ public class Graph {
     public static int [][] path=new int[txtlen][txtlen];
     public static int [][] signal=new int[txtlen][txtlen];
     public static String newsc="",bword="",word1,word2;
-
     public static int[][] createDirectedGraph (String filename)throws Exception  {
         File file = new File(filename);//文件位置   D:\\JAVA\\2017_work\\work1\\file1.txt//
         FileReader reader = new FileReader(file);
