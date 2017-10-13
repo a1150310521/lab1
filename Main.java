@@ -1,10 +1,12 @@
 ﻿package com.graph;
+//1.4修改4
+//2.4修改4
 import java.io.File;
 import java.io.FileReader;
 import java.util.Scanner;
 import java.lang.Exception;
 public class Main {
-//1.4修改4
+
     public static File filename;
     public static int j=0,t=0,i=0,f=0,n=0,g=0,txtlen=0,che=0,chek=0,check=0,way=0;
     public static String[] txt=new String[100];//�ַ���
