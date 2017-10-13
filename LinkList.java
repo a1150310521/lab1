@@ -1,6 +1,6 @@
 package com.graph;
 //1.4ÐÞ¸Ä3
-//2.5ÐÞ¸Ä3
+//2.4ÐÞ¸Ä3
 public class LinkList {
     public  Node head;
     private String loc;
