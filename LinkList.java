@@ -1,31 +1,31 @@
 package com.graph;
-
+//1.4ÐÞ¸Ä3
 public class LinkList {
-    public  Node head;
+    public  LinkNode head;
     private String loc;
     public LinkList(){
         this.head=null;
     }
     public void addhead (String data){
-        Node node=new Node(data);
+        LinkNode node=new LinkNode(data);
         node.next=head;
         node.data=data;
         head=node;
     }
-    public Node deletehead(){
-        Node tempNode=head;
+    public LinkNode deletehead(){
+        LinkNode tempNode=head;
         head=tempNode.next;
         return tempNode;
     }
     public void creatLink(String data){
-        Node temp=head;
+        LinkNode temp=head;
         while(head.next!=null){
             temp=temp.next;
         }
         temp.data=data;
     }
     public void displayList(){
-        Node current =head;
+        LinkNode current =head;
         while(current!=null){
             current.display();
             current=current.next;
