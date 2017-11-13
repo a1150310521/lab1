@@ -1,12 +1,15 @@
-package com.graph;
+package test1;
 
-public class LinkNode {
-    protected LinkNode next;
+public class Node {
+
+    protected Node next;
     protected String data;
-    public LinkNode(String data){
+    public Node(String data){
         this.data=data;
     }
     public  void display(){
         System.out.print(data+" ");
     }
+
+
 }
